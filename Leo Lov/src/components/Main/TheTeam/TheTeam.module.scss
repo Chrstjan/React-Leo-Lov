@@ -3,21 +3,23 @@
 @use "../../../styles/placeholders";
 
 .profileCard {
-    @include m.flexBox(column, center, center);
-    border-bottom: 6px solid v.$main-color-dark-blue;
+  @include m.flexBox(column, center, center);
+  border-bottom: 6px solid v.$main-color-dark-blue;
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+
     &:nth-child(2) {
-        background: red;
+      background: red;
+      width: 10%;
     }
+  }
 
-    figcaption {
-        text-align: center;
-        header {
-            @extend %headerFontFamily;
-            color: v.$main-color-light-blue;
-        }
+  figcaption {
+    text-align: center;
+    header {
+      @extend %headerFontFamily;
+      color: v.$main-color-light-blue;
     }
+  }
 }

@@ -10,5 +10,10 @@
     &.casesCards {
       margin-top: -5rem;
     }
+
+    .sectionHeader {
+      @extend %headerFontFamily;
+      color: v.$main-color-light-blue;
+    }
   }
 }

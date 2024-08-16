@@ -1,5 +1,4 @@
 import { cardsArray, lawyerCardArray, teamArray } from "../../assets/App";
-import { LocationWrapper } from "../Location/LocationWrapper";
 import { Card } from "./Card/Card";
 import { LawyerCard } from "./LawyerCard/LawyerCard";
 import style from "./Main.module.scss";
@@ -27,6 +26,9 @@ export const Main = () => {
           })}
         </section>
         <section className={style.cardsContainer}>
+          <header className={style.sectionHeader}>
+            <h2>Mød holdet</h2>
+          </header>
           {teamArray.map((team) => {
             return (
               <TheTeam
@@ -37,7 +39,6 @@ export const Main = () => {
             );
           })}
         </section>
-        <LocationWrapper />
       </main>
     </>
   );

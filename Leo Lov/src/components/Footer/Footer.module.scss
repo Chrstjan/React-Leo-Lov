@@ -4,4 +4,23 @@
 
 .footerStyling {
   background: v.$main-color-dark-blue;
+  color: v.$main-color-white;
+  @include m.flexBox(column, center, center);
+  text-align: center;
+  padding-bottom: 1.5rem;
+
+  header {
+    @extend %headerFontFamily;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+
+  .soMeContainer {
+    @include m.flexBox(row, center, center);
+  }
 }

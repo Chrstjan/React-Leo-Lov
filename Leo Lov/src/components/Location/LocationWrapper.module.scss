@@ -1,0 +1,8 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+@use "../../styles/placeholders";
+
+.locationStyling {
+    @include m.flexBox(column, center, center);
+    border: 5px solid v.$main-color-dark-blue;
+}

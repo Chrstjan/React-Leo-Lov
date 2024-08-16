@@ -1,0 +1,6 @@
+@use "../../../styles/variables" as v;
+
+.locationStyling {
+    width: 100%;
+    border: 5px solid v.$main-color-dark-blue;
+}

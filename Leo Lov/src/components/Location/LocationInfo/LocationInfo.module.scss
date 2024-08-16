@@ -1,0 +1,22 @@
+@use "../../../styles/variables" as v;
+@use "../../../styles/placeholders";
+
+.infoStyling {
+    padding: 0rem 1rem;
+
+    header {
+        @extend %headerFontFamily;
+        color: v.$main-color-light-blue;
+        text-align: center;
+    }
+
+    footer {
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                color: v.$main-color-light-blue;
+            }
+        }
+    }
+}

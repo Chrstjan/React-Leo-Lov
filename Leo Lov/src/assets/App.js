@@ -34,23 +34,23 @@ export const lawyerCardArray = [
 
 export const teamArray = [
     {
-        img: "./src/assets/images/Spoderman.jpg",
-        name: "",
-        description: "",
-    },
-    {
         img: "./src/assets/images/Ellipse 1.jpg",
-        name: "",
-        description: "",
+        name: "John Harbinger",
+        description: "“Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter“",
     },
     {
-        img: "./src/assets/images/Ellipse 2.jpg",
-        name: "",
-        description: "",
+        img: "./src/assets/images/Spoderman.jpg",
+        name: "Peter Parker",
+        description: "“Jeg holder af kaffe og så er jeg helt enormt succesfuld. Meget mere end John”",
     },
     {
         img: "./src/assets/images/Ellipse 3.jpg",
-        name: "",
-        description: "",
+        name: "Elise Li",
+        description: "“Uden ret og lov, kunne vi ligeså godt bo i en skov. Sådan har jeg altid sagt.”",
+    },
+    {
+        img: "./src/assets/images/Ellipse 4.jpg",
+        name: "Morten Nate",
+        description: "“Jeg er født på landet. På landet er der ingen ret og lov. Det er det vilde vest derude.”",
     }
 ]

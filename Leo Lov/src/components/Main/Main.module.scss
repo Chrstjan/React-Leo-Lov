@@ -1,0 +1,12 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+@use "../../styles/placeholders";
+
+.mainStyling {
+    position: absolute;
+    top: 70%;
+    .cardsContainer {
+        @include m.flexBox(column, center, center);
+        padding: 0rem 2rem;
+    }
+}

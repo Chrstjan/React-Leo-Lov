@@ -1,0 +1,25 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/variables" as v;
+@use "../../../styles/placeholders";
+
+.cardStyling {
+    @include m.flexBox(column, center, center);
+    border: 6px solid v.$main-color-dark-blue;
+    width: 250px;
+
+    img {
+        width: 100%;
+    }
+
+    figcaption {
+        padding: 1rem 1rem;
+
+        header {
+            h3 {
+                @extend %headerFontFamily;
+                text-align: center;
+                color: v.$main-color-light-blue;
+            }
+        }
+    }
+}

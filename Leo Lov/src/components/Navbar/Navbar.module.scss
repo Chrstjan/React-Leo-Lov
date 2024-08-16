@@ -1,0 +1,17 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+@use "../../styles/placeholders";
+
+.navbarStyling {
+    @include m.flexBox(column, center, center, 0.5rem);
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        font-weight: 400;
+        font-size: 12px;
+        color: v.$main-color-light-blue;
+        border-right: 1px solid v.$main-color-light-blue;
+        padding-right: 0.2rem;
+    }
+}

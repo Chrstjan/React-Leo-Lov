@@ -1,0 +1,20 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/variables" as v;
+@use "../../../styles/placeholders";
+
+.cardStyling {
+    text-align: center;
+    background: v.$main-color-white;
+    border-radius: 8px;
+    border: 3px solid #eeeeee02;
+    @include m.flexBox(column, center, center);
+    width: 60%;
+    padding: 0rem 1rem;
+    
+    header {
+        h3 {
+            color: v.$main-color-light-blue;
+            @extend %headerFontFamily;
+        }
+    }
+}

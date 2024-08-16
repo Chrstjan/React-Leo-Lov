@@ -1,0 +1,24 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/variables" as v;
+@use "../../../styles/placeholders";
+
+.headerStyling {
+    color: v.$main-color-white;
+    .heroHeader {
+        @include m.flexBox(row, center, center, 0.4rem);
+
+        h2 {
+            margin: 0;
+            @extend %headerFontFamily;
+            font-size: 60px;
+
+            &:first-of-type {
+                color: v.$main-color-light-blue;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}

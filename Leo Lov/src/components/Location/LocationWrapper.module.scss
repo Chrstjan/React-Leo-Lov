@@ -5,8 +5,9 @@
 .locationStyling {
   @include m.flexBox(column, center, center);
   border: 5px solid v.$main-color-dark-blue;
+  margin: 0rem 3.5rem 1rem 3.5rem;
 
-  @media (min-width: 1280px) {
+  @media (min-width: 760px) {
     flex-direction: row;
   }
 }

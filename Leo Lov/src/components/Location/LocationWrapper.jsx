@@ -7,12 +7,10 @@ export const LocationWrapper = () => {
   return (
     <>
       <section id="locationSection">
-        <figure className={style.locationStyling}>
-          <LocationFrame
-            imageSrc={"./src/assets/images/leolov-location (1).PNG"}
-          />
+        <div className={style.locationStyling}>
+          <LocationFrame />
           <LocationInfo />
-        </figure>
+        </div>
       </section>
     </>
   );

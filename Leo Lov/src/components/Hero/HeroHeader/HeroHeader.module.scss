@@ -4,11 +4,19 @@
 
 .headerStyling {
   color: v.$main-color-white;
+
+  @media (min-width: 760px) {
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+
   @media (min-width: 1280px) {
+    padding: 0;
     position: absolute;
     top: 26%;
     right: 11%;
   }
+
   .heroHeader {
     @include m.flexBox(row, center, center, 0.4rem);
 

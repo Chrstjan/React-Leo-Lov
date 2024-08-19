@@ -9,6 +9,23 @@
 
     &.casesCards {
       margin-top: -5rem;
+
+      @media (min-width: 1280px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        padding: 0rem 3rem;
+        margin-top: -10rem;
+        margin-bottom: 5rem;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      &.lawyerCard {
+        &:last-child {
+          flex-direction: row-reverse;
+        }
+      }
     }
 
     .sectionHeader {

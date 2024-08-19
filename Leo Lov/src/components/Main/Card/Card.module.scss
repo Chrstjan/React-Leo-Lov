@@ -11,10 +11,21 @@
   width: 60%;
   padding: 0rem 1rem;
 
+  @media (min-width: 1280px) {
+    height: 391px;
+    width: 270px;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+
   header {
     h3 {
       color: v.$main-color-light-blue;
       @extend %headerFontFamily;
+
+      @media (min-width: 1280px) {
+        font-size: 32px;
+      }
     }
   }
 }

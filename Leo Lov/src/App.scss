@@ -3,7 +3,7 @@
 html {
   min-height: 100vh;
   box-sizing: border-box;
-  height: 100vh;
+  // height: 100vh;
 }
 
 body {
@@ -12,9 +12,5 @@ body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
   min-height: 100vh;
-  height: 110vh;
-}
-
-#root {
-  height: 100vh;
+  // height: 110vh;
 }

@@ -13,7 +13,7 @@ export const Main = () => {
             return <Card headerText={card.title} cardContent={card.content} />;
           })}
         </section>
-        <section className={style.cardsContainer}>
+        <section className={`${style.cardsContainer} ${style.lawyerCard}`}>
           {lawyerCardArray.map((card) => {
             return (
               <LawyerCard

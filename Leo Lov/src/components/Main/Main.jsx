@@ -25,7 +25,7 @@ export const Main = () => {
             );
           })}
         </section>
-        <section className={style.cardsContainer}>
+        <section className={style.cardsContainer} id="lawyerSection">
           <header className={style.sectionHeader}>
             <h2>Mød holdet</h2>
           </header>

@@ -5,10 +5,18 @@ export const Navbar = ({}) => {
     <>
       <nav>
         <ul className={style.navbarStyling}>
-          <li>Hjem</li>
-          <li>Advokaterne</li>
-          <li>Om LeoLov</li>
-          <li>Kontakt</li>
+          <li>
+            <a href="#hero-section">Hjem</a>
+          </li>
+          <li>
+            <a href="#lawyerSection">Advokaterne</a>
+          </li>
+          <li>
+            <a href="#locationSection">Om LeoLov</a>
+          </li>
+          <li>
+            <a href="#footer">Kontakt</a>
+          </li>
         </ul>
       </nav>
     </>

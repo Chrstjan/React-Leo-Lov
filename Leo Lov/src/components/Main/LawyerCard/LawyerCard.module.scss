@@ -11,11 +11,12 @@
     flex-direction: row;
     gap: 1rem;
     width: 1192px;
+
+    &:last-child {
+      flex-direction: row-reverse;
+    }
   }
 
-  &:last-child {
-    flex-direction: row-reverse;
-  }
   img {
     width: 100%;
 

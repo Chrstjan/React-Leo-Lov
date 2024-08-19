@@ -3,7 +3,7 @@ import style from "./Footer.module.scss";
 export const Footer = ({ imageOne, imageTwo }) => {
   return (
     <>
-      <footer className={style.footerStyling}>
+      <footer className={style.footerStyling} id="footer">
         <span>
           <header>
             <h3>Adresse</h3>

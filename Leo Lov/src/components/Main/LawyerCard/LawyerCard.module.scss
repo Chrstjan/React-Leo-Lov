@@ -35,6 +35,11 @@
         @extend %headerFontFamily;
         text-align: center;
         color: v.$main-color-light-blue;
+
+        @media (min-width: 1280px) {
+          font-size: 32px;
+          padding-bottom: 1.5rem;
+        }
       }
     }
 

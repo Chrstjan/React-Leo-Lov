@@ -48,7 +48,7 @@ export const teamArray = [
       "“Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter“",
   },
   {
-    img: "./src/assets/images/Spoderman.jpg",
+    img: "./src/assets/images/Spoderman.png",
     name: "Peter Parker",
     description:
       "“Jeg holder af kaffe og så er jeg helt enormt succesfuld. Meget mere end John”",

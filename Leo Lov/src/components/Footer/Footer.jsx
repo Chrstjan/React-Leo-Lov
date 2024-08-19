@@ -10,9 +10,8 @@ export const Footer = ({ imageOne, imageTwo }) => {
           </header>
           <p>Find os her:</p>
           <ul>
-            <li>Vestervænget 232, 30.sal</li>
-            <li>6574 Øster Nørup</li>
-            <li>Danmark</li>
+            <li>Maldive rd. 22,</li>
+            <li>Seychelle Islands</li>
           </ul>
         </span>
         <span>

@@ -1,6 +1,12 @@
 @use "../../../styles/variables" as v;
 
 .locationStyling {
-    width: 100%;
-    border: 5px solid v.$main-color-dark-blue;
+  width: 100%;
+  border-bottom: 5px solid v.$main-color-dark-blue;
+
+  @media (min-width: 1280px) {
+    width: 50%;
+    border-right: 5px solid v.$main-color-dark-blue;
+    border-bottom: 0;
+  }
 }

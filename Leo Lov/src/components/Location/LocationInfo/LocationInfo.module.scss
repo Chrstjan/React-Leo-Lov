@@ -2,21 +2,26 @@
 @use "../../../styles/placeholders";
 
 .infoStyling {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 
-    header {
-        @extend %headerFontFamily;
+  header {
+    @extend %headerFontFamily;
+    color: v.$main-color-light-blue;
+    text-align: center;
+
+    @media (min-width: 1280px) {
+      font-size: 28px;
+      padding-bottom: 0.4rem;
+    }
+  }
+
+  footer {
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
         color: v.$main-color-light-blue;
-        text-align: center;
+      }
     }
-
-    footer {
-        ul {
-            padding: 0;
-            li {
-                list-style: none;
-                color: v.$main-color-light-blue;
-            }
-        }
-    }
+  }
 }

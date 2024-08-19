@@ -29,15 +29,17 @@ export const Main = () => {
           <header className={style.sectionHeader}>
             <h2>Mød holdet</h2>
           </header>
-          {teamArray.map((team) => {
-            return (
-              <TheTeam
-                imgSrc={team.img}
-                name={team.name}
-                description={team.description}
-              />
-            );
-          })}
+          <article className={style.teamStyling}>
+            {teamArray.map((team) => {
+              return (
+                <TheTeam
+                  imgSrc={team.img}
+                  name={team.name}
+                  description={team.description}
+                />
+              );
+            })}
+          </article>
         </section>
       </main>
     </>

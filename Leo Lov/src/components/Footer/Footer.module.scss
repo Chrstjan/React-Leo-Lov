@@ -9,18 +9,38 @@
   text-align: center;
   padding-bottom: 1.5rem;
 
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   header {
     @extend %headerFontFamily;
+
+    @media (min-width: 1280px) {
+      font-size: 30px;
+
+      h3:last-of-type {
+        margin-bottom: 0;
+      }
+    }
   }
 
   ul {
     padding: 0;
     li {
       list-style-type: none;
+
+      @media (min-width: 1280px) {
+      }
     }
   }
 
   .soMeContainer {
     @include m.flexBox(row, center, center);
+
+    @media (min-width: 1280px) {
+      padding-top: 2rem;
+    }
   }
 }

@@ -6,8 +6,8 @@
   color: v.$main-color-white;
   @media (min-width: 1280px) {
     position: absolute;
-    top: 13%;
-    right: 23%;
+    top: 26%;
+    right: 11%;
   }
   .heroHeader {
     @include m.flexBox(row, center, center, 0.4rem);

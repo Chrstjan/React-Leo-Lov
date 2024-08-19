@@ -10,7 +10,14 @@
     &.casesCards {
       margin-top: -5rem;
 
+      @media (min-width: 760px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+
       @media (min-width: 1280px) {
+        display: flex;
         flex-direction: row;
         gap: 2rem;
         padding: 0rem 3rem;
@@ -30,12 +37,17 @@
       @extend %headerFontFamily;
       color: v.$main-color-light-blue;
 
-      @media (min-width: 1280px) {
+      @media (min-width: 760) {
         font-size: 32px;
       }
     }
 
     .teamStyling {
+      @media (min-width: 760px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
       @media (min-width: 1280px) {
         display: flex;
         flex-direction: row;

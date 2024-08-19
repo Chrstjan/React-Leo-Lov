@@ -7,26 +7,41 @@
   border: 6px solid v.$main-color-dark-blue;
   width: 250px;
 
-  @media (min-width: 1280px) {
+  @media (min-width: 760px) {
     flex-direction: row;
-    gap: 1rem;
-    width: 1192px;
+    gap: 2rem;
+    width: 700px;
 
     &:last-child {
       flex-direction: row-reverse;
     }
   }
 
+  @media (min-width: 1280px) {
+    gap: 1rem;
+    width: 1192px;
+  }
+
   img {
     width: 100%;
 
+    @media (min-width: 760px) {
+      width: 50%;
+      height: 49vh;
+    }
+
     @media (min-width: 1280px) {
       width: 50%;
+      height: 100%;
     }
   }
 
   figcaption {
     padding: 1rem 1rem;
+    @media (min-width: 760px) {
+      width: 100rem;
+    }
+
     @media (min-width: 1280px) {
       width: 100rem;
     }

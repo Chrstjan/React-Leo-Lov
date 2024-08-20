@@ -10,13 +10,13 @@ export const Main = () => {
       <main className={style.mainStyling}>
         <section className={`${style.cardsContainer} ${style.casesCards}`}>
           {cardsArray.map((card) => {
-            return <Card headerText={card.title} cardContent={card.content} />;
+            return <Card key={card.title} headerText={card.title} cardContent={card.content} />;
           })}
         </section>
         <section className={`${style.cardsContainer} ${style.lawyerCard}`}>
           {lawyerCardArray.map((card) => {
             return (
-              <LawyerCard
+              <LawyerCard key={card.title}
                 sovs={card.img}
                 title={card.title}
                 content={card.content}
@@ -32,7 +32,7 @@ export const Main = () => {
           <article className={style.teamStyling}>
             {teamArray.map((team) => {
               return (
-                <TheTeam
+                <TheTeam key={team.name}
                   imgSrc={team.img}
                   name={team.name}
                   description={team.description}

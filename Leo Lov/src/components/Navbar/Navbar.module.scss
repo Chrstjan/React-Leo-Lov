@@ -14,8 +14,15 @@
     list-style-type: none;
     font-weight: 400;
     font-size: 16px;
-    border-right: 1px solid v.$main-color-light-blue;
-    padding-right: 0.2rem;
+    padding-right: 0.4rem;
+
+    &:last-of-type {
+      border: 0;
+    }
+    
+    @media (min-width: 1280px) {
+      border-right: 1px solid v.$main-color-light-blue;
+    }
 
     a {
       color: v.$main-color-light-blue;

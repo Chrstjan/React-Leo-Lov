@@ -24,7 +24,7 @@ export const cardsArray = [
 export const lawyerCardArray = [
   {
     img: "./src/assets/images/Lawyer.jpg",
-    title: "Intent Problem",
+    title: "Intet Problem",
     content:
       "Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod alt forventning skulle oplevel at støde på et retsligt problem som leo-lov ikke kan løse får du halvdelen af beløbet igen.",
     subContent:
@@ -42,7 +42,7 @@ export const lawyerCardArray = [
 
 export const teamArray = [
   {
-    img: "./src/assets/images/Ellipse 1.jpg",
+    img: "./src/assets/images/Lawyer 1.jpg",
     name: "John Harbinger",
     description:
       "“Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter“",
@@ -54,13 +54,13 @@ export const teamArray = [
       "“Jeg holder af kaffe og så er jeg helt enormt succesfuld. Meget mere end John”",
   },
   {
-    img: "./src/assets/images/Ellipse 3.jpg",
+    img: "./src/assets/images//Lawyer 2.jpg",
     name: "Elise Li",
     description:
       "“Uden ret og lov, kunne vi ligeså godt bo i en skov. Sådan har jeg altid sagt.”",
   },
   {
-    img: "./src/assets/images/Ellipse 4.jpg",
+    img: "./src/assets/images/Lawyer 3.jpg",
     name: "Morten Nate",
     description:
       "“Jeg er født på landet. På landet er der ingen ret og lov. Det er det vilde vest derude.”",
